@@ -58,19 +58,19 @@ I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wa
 <div class="exp-list">
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/pku.png" alt="Peking University logo"></div>
-    <div class="exp-body"><em>2026.07 – Present</em>, <strong>Peking University–JD Joint Lab</strong> — Embodied AI Research Intern. Building World-Action Models for high-DoF dexterous manipulation, covering large-scale embodiment data curation, video-action pre-training, and closed-loop real-robot evaluation.</div>
+    <div class="exp-body"><em>2026.07 – Present</em>, <strong>Peking University–JD Joint Lab</strong><span class="exp-tag exp-tag--embodied">具身研究实习生</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Megvii.png" alt="Megvii logo"></div>
-    <div class="exp-body"><em>2025.10 – 2026.07</em>, <strong>Megvii</strong> — Autonomous Driving Research Intern. Worked on controllable behavior-aware world generation and a privileged BEV latent world model for end-to-end planning, improving NAVSIM v1 from 87.74 to 92.66.</div>
+    <div class="exp-body"><em>2025.10 – 2026.07</em>, <strong>Megvii</strong><span class="exp-tag exp-tag--ad">自驾研究实习生</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Tsinghua_AIR.png" alt="Institute for AI Industry Research, Tsinghua University logo"></div>
-    <div class="exp-body"><em>2024.05 – 2025.09</em>, <strong>Institute for AI Industry Research (AIR), Tsinghua University</strong> — Autonomous Driving Research Intern. Reconstructed roadside-sensor-driven interactive traffic in CARLA and led closed-loop benchmarking of perception–planning baselines for end-to-end autonomous driving.</div>
+    <div class="exp-body"><em>2024.05 – 2025.09</em>, <strong>Institute for AI Industry Research (AIR), Tsinghua University</strong><span class="exp-tag exp-tag--ad">自驾研究实习生</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Meituan.png" alt="Meituan logo"></div>
-    <div class="exp-body"><em>2024.01 – 2024.03</em>, <strong>Meituan (Autonomous Delivery Dept.)</strong> — Autonomous Driving Algorithm Intern. Adapted and deployed an academic reinforcement learning planning policy into the production planning stack of autonomous delivery vehicles.</div>
+    <div class="exp-body"><em>2024.01 – 2024.03</em>, <strong>Meituan (Autonomous Delivery Dept.)</strong><span class="exp-tag exp-tag--ad">自驾算法实习生</span></div>
   </div>
 </div>
 

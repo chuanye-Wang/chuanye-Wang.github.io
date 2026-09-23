@@ -143,6 +143,24 @@ h1:before, .anchor:before {
         flex: 1 1 auto;
         min-width: 0;
         line-height: 1.6;
+
+        /* Role tag attached to each experience entry */
+        .exp-tag {
+            display: inline-block;
+            margin-left: 0.6em;
+            padding: 0.1em 0.7em;
+            border-radius: 999px;
+            font-size: 0.78em;
+            line-height: 1.7;
+            white-space: nowrap;
+            vertical-align: middle;
+            color: #fff;
+            background-color: #00369f;
+        }
+
+        .exp-tag--embodied {
+            background-color: #0f7b6c;
+        }
     }
 
     @media (max-width: 600px) {
