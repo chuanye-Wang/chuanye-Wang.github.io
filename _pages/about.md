@@ -58,19 +58,19 @@ I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wa
 <div class="exp-list">
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/pku.png" alt="Peking University logo"></div>
-    <div class="exp-body"><em>2026.07 – Present</em>, <strong>Peking University–JD Joint Lab</strong><span class="exp-tag exp-tag--embodied">具身研究实习生</span></div>
+    <div class="exp-body"><em>2026.07 – Present</em>, <strong>Peking University–JD Joint Lab</strong><span class="exp-tag exp-tag--embodied">Embodied AI Research Intern</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Megvii.png" alt="Megvii logo"></div>
-    <div class="exp-body"><em>2025.10 – 2026.07</em>, <strong>Megvii</strong><span class="exp-tag exp-tag--ad">自驾研究实习生</span></div>
+    <div class="exp-body"><em>2025.10 – 2026.07</em>, <strong>Megvii</strong><span class="exp-tag exp-tag--ad">Autonomous Driving Research Intern</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Tsinghua_AIR.png" alt="Institute for AI Industry Research, Tsinghua University logo"></div>
-    <div class="exp-body"><em>2024.05 – 2025.09</em>, <strong>Institute for AI Industry Research (AIR), Tsinghua University</strong><span class="exp-tag exp-tag--ad">自驾研究实习生</span></div>
+    <div class="exp-body"><em>2024.05 – 2025.09</em>, <strong>Institute for AI Industry Research (AIR), Tsinghua University</strong><span class="exp-tag exp-tag--ad">Autonomous Driving Research Intern</span></div>
   </div>
   <div class="exp-item">
     <div class="exp-logo"><img src="/images/Meituan.png" alt="Meituan logo"></div>
-    <div class="exp-body"><em>2024.01 – 2024.03</em>, <strong>Meituan (Autonomous Delivery Dept.)</strong><span class="exp-tag exp-tag--ad">自驾算法实习生</span></div>
+    <div class="exp-body"><em>2024.01 – 2024.03</em>, <strong>Meituan (Autonomous Delivery Dept.)</strong><span class="exp-tag exp-tag--ad">Autonomous Driving Algorithm Intern</span></div>
   </div>
 </div>
 
