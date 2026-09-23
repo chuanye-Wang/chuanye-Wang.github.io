@@ -107,3 +107,53 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Experience entries: uniform logo column on the left of each item */
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 0.5em;
+
+    .exp-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .exp-logo {
+        flex: 0 0 120px;
+        width: 120px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        img {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .exp-body {
+        flex: 1 1 auto;
+        min-width: 0;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+        .exp-item {
+            gap: 0.75em;
+        }
+
+        .exp-logo {
+            flex-basis: 84px;
+            width: 84px;
+            height: 30px;
+        }
+    }
+}

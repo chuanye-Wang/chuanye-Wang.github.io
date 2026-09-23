@@ -12,13 +12,13 @@ redirect_from:
 
 I am a Master's student in Transportation Engineering at [Beihang University (BUAA)](https://ev.buaa.edu.cn/), advised in research toward **Embodied AI** and **end-to-end autonomous driving**. I am currently an Embodied AI research intern at the **Peking University–JD Joint Lab**, led by [Prof. Hao Dong](https://zsdonghao.github.io/).
 
-Previously, I interned at Megvii (旷世) and at the Institute for AI Industry Research (AIR), Tsinghua University ([Prof. Zaiqing Nie](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)), working on world models, closed-loop evaluation, and end-to-end driving systems.
+Previously, I interned at Megvii and at the Institute for AI Industry Research (AIR), Tsinghua University ([Prof. Zaiqing Nie](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)), working on world models, closed-loop evaluation, and end-to-end driving systems.
 
 I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wangchuanye66@gmail.com](mailto:wangchuanye66@gmail.com).
 
 # 🔥 News
 - *2026.07*: &nbsp;Joined the Peking University–JD Joint Lab (Prof. Hao Dong) as an Embodied AI research intern, working on DexWAM / high-DoF dexterous manipulation.
-- *2025.10 – 2026.07*: &nbsp;Autonomous driving research intern at Megvii (旷世); contributed to BehaviorWorldGen and WorldDrive.
+- *2025.10 – 2026.07*: &nbsp;Autonomous driving research intern at Megvii; contributed to BehaviorWorldGen and WorldDrive.
 - *2025*: &nbsp;Papers / reports on CVCI 2025, ICCV 2025 Workshop, Automotive Innovation; DriveE2E under review at TMLR.
 - *2025*: &nbsp;Organizing Committee member for the 2nd MEIS Workshop at CVPR 2025 ([workshop page](https://coop-intelligence.github.io/V2X-Sec_MEIS/)).
 - *2024.05 – 2025.09*: &nbsp;Autonomous driving research intern at AIR, Tsinghua University (Prof. Zaiqing Nie).
@@ -55,10 +55,24 @@ I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wa
 
 # 💻 Experience
 
-- *2026.07 – Present*, **Peking University–JD Joint Lab** — Embodied AI Research Intern. Building World-Action Models for high-DoF dexterous manipulation, covering large-scale embodiment data curation, video-action pre-training, and closed-loop real-robot evaluation.
-- *2025.10 – 2026.07*, **Megvii (旷世)** — Autonomous Driving Research Intern. Worked on controllable behavior-aware world generation and a privileged BEV latent world model for end-to-end planning, improving NAVSIM v1 from 87.74 to 92.66.
-- *2024.05 – 2025.09*, **Institute for AI Industry Research (AIR), Tsinghua University** — Autonomous Driving Research Intern. Reconstructed roadside-sensor-driven interactive traffic in CARLA and led closed-loop benchmarking of perception–planning baselines for end-to-end autonomous driving.
-- *2024.01 – 2024.03*, **Meituan (Autonomous Delivery Dept.)** — Autonomous Driving Algorithm Intern. Adapted and deployed an academic reinforcement learning planning policy into the production planning stack of autonomous delivery vehicles.
+<div class="exp-list">
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/pku.png" alt="Peking University logo"></div>
+    <div class="exp-body"><em>2026.07 – Present</em>, <strong>Peking University–JD Joint Lab</strong> — Embodied AI Research Intern. Building World-Action Models for high-DoF dexterous manipulation, covering large-scale embodiment data curation, video-action pre-training, and closed-loop real-robot evaluation.</div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/Megvii.png" alt="Megvii logo"></div>
+    <div class="exp-body"><em>2025.10 – 2026.07</em>, <strong>Megvii</strong> — Autonomous Driving Research Intern. Worked on controllable behavior-aware world generation and a privileged BEV latent world model for end-to-end planning, improving NAVSIM v1 from 87.74 to 92.66.</div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/Tsinghua_AIR.png" alt="Institute for AI Industry Research, Tsinghua University logo"></div>
+    <div class="exp-body"><em>2024.05 – 2025.09</em>, <strong>Institute for AI Industry Research (AIR), Tsinghua University</strong> — Autonomous Driving Research Intern. Reconstructed roadside-sensor-driven interactive traffic in CARLA and led closed-loop benchmarking of perception–planning baselines for end-to-end autonomous driving.</div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/Meituan.png" alt="Meituan logo"></div>
+    <div class="exp-body"><em>2024.01 – 2024.03</em>, <strong>Meituan (Autonomous Delivery Dept.)</strong> — Autonomous Driving Algorithm Intern. Adapted and deployed an academic reinforcement learning planning policy into the production planning stack of autonomous delivery vehicles.</div>
+  </div>
+</div>
 
 # 📖 Educations
 - *2024.09 – Present*, **Beihang University (BUAA)**, Beijing, China  
