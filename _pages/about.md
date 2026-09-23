@@ -8,51 +8,75 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Master's student in Transportation Engineering at [Beihang University (BUAA)](https://ev.buaa.edu.cn/), advised in research toward **Embodied AI** and **end-to-end autonomous driving**. I am currently an Embodied AI research intern at the **Peking University–JD Joint Lab**, led by [Prof. Hao Dong](https://zsdonghao.github.io/).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Previously, I interned at Megvii (Qianli) and at the Institute for AI Industry Research (AIR), Tsinghua University ([Prof. Zaiqing Nie](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)), working on world models, closed-loop evaluation, and end-to-end driving systems.
 
+I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wangchuanye66@gmail.com](mailto:wangchuanye66@gmail.com).
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.07*: &nbsp;Joined the Peking University–JD Joint Lab (Prof. Hao Dong) as an Embodied AI research intern, working on DexWAM / high-DoF dexterous manipulation.
+- *2025.10 – 2026.07*: &nbsp;Autonomous driving research intern at Megvii (Qianli); contributed to BehaviorWorldGen and WorldDrive.
+- *2025*: &nbsp;Papers / reports on CVCI 2025, ICCV 2025 Workshop, Automotive Innovation; DriveE2E under review at TMLR.
+- *2025*: &nbsp;Organizing Committee member for the 2nd MEIS Workshop at CVPR 2025 ([workshop page](https://coop-intelligence.github.io/V2X-Sec_MEIS/)).
+- *2024.05 – 2025.09*: &nbsp;Autonomous driving research intern at AIR, Tsinghua University (Prof. Zaiqing Nie).
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **DexWAM: Scaling World Action Models for Dexterous Manipulation via Fine-Grained Video Pre-training**  
+  **Chuanye Wang***, J. Zhu, J. Zhang  
+  *Embodied AI · Dexterous Manipulation · Co-first Author · Working Paper*
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **WorldDrive: Spatiotemporally Aligned Privileged Distillation for Autonomous Driving**  
+  **Chuanye Wang***, M. Xiong*, Y. Li, Y. Qing, et al.  
+  *Autonomous Driving · World Model · End-to-End · Co-first Author · Working Paper*
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- [**Design Planning Framework Based on Bidirectional Refinement Interaction for Autonomous Driving**](https://ieeexplore.ieee.org/abstract/document/11348172)  
+  **Chuanye Wang**, S. Yang, B. Ren, et al.  
+  *CVCI 2025 · First Author · End-to-End*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- [**BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation**](https://arxiv.org/html/2608.22187v1)  
+  Z. Zhang, J. Wang, H. Cui, **Chuanye Wang**, Z. Zhu, Y. Zheng, et al.  
+  *Autonomous Driving · Generative World Model · Technical Report* · [Project](https://behaviorworldgen.github.io/)
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [**DriveE2E: An Infrastructure-Grounded Ego-Closed-Loop Replay Benchmark for End-to-End Autonomous Driving**](https://openreview.net/pdf/06f12183802f58b2985aa4fbfbc49520c11a52d2.pdf)  
+  H. Yu, W. Yang, R. Hao, **Chuanye Wang**, J. Zhong, P. Luo, Z. Nie  
+  *TMLR: Under Review · Co-first Author · Closed-Loop Evaluation · End-to-End*
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- [**Research challenges and progress in the end-to-end v2x cooperative autonomous driving competition**](https://ieeexplore.ieee.org/abstract/document/11375646)  
+  R. Hao, H. Yu, J. Zhong, **Chuanye Wang**, J. Wang, Y. Kan, ..., Z. Nie  
+  *ICCV 2025 Workshop · Technical Report · V2X · End-to-End*
+
+- [**FocalAD: Local motion planning for end-to-end autonomous driving**](https://link.springer.com/article/10.1007/s42154-025-00465-6)  
+  B. Sun, B. Zhang, J. Lu, X. Feng, J. Shang, R. Cao, M. Zheng, **Chuanye Wang**, S. Yang, Y. Cao, Z. Song  
+  *Automotive Innovation · Motion Planning*
+
+# 💻 Experience
+
+- *2026.07 – Present*, **Peking University–JD Joint Lab** | Embodied AI Research Intern  
+  Advisor: [Prof. Hao Dong](https://zsdonghao.github.io/)  
+  *Project: DexWAM — Scaling World Action Models for Dexterous Manipulation via Fine-Grained Video Pre-training*
+  - Jointly model future video and high-DoF actions with a World-Action Model (WAM) and a DiT-based action/video expert (up to 100 DoF, including 42-DoF bimanual dexterous control).
+  - Build a unified kinematic retargeting and cleaning pipeline over heterogeneous embodiment data (e.g., Galaxea, EgoDex, Xperience), curating ~10k hours of high-quality dexterous pre-training data and continuing to scale.
+  - Set up closed-loop evaluation in RoboCasa (Desktop 24-Task) against strong baselines (e.g., NVIDIA GROOT), and validate on a Franka + UMI-style real-robot platform.
+
+- *2025.10 – 2026.07*, **Megvii (Qianli)** | Autonomous Driving Research Intern  
+  - **BehaviorWorldGen:** redesign spatio-temporal self-attention in a DiT backbone with block-wise causal masking, and integrate Diffusion Forcing to reduce train–test discrepancy for stable causal rollouts. [Project](https://behaviorworldgen.github.io/)
+  - **WorldDrive (lead):** build a privileged BEV latent world model for integrated perception and planning; improve NAVSIM v1 from 87.74 to 92.66 and advance privileged distillation toward a **CVPR 2027** submission.
+
+- *2024.05 – 2025.09*, **Institute for AI Industry Research (AIR), Tsinghua University** | Autonomous Driving Research Intern  
+  Advisor: [Prof. Zaiqing Nie](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)
+  - **DriveE2E:** reconstruct high-fidelity interactive traffic in CARLA from roadside sensors covering ~20 urban blocks in Yizhuang, Beijing, and lead closed-loop benchmarking of perception–planning baselines (e.g., SparseDrive, VAD).
+  - **Academic service:** Organizing Committee member for the 2nd MEIS Workshop at CVPR 2025 (V2X-Sec Challenge & end-to-end AD track). [Workshop](https://coop-intelligence.github.io/V2X-Sec_MEIS/)
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09 – Present*, **Beihang University (BUAA)**, Beijing, China  
+  M.Eng. in Transportation Engineering (*Focus: Embodied AI & Autonomous Driving*)
+- *2019.09 – 2023.06*, **Beijing University of Technology (BJUT)**, Beijing, China  
+  B.Eng. in Electrical Engineering (*Track: Telecommunications*)
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 🎖 Honors and Awards
+- *2022*, National 3rd Prize in RoboCup China
+- *2021*, 3rd Prize in National Undergraduate Electronics Design Contest (Beijing)
