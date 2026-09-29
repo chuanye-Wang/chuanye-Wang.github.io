@@ -89,3 +89,22 @@ I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wa
 # 🎖 Honors and Awards
 - *2022*, National 3rd Prize in RoboCup China
 - *2021*, 3rd Prize in National Undergraduate Electronics Design Contest (Beijing)
+
+<div id="blog" class="blog-view" hidden>
+  <h1>📝 Blog</h1>
+  <p>Notes, updates, and longer-form writing on <strong>embodied AI</strong>, <strong>autonomous driving</strong>, and engineering.</p>
+  <div class="blog-list">
+{%- for post in site.posts %}
+    <a class="blog-item" href="{{ post.url | relative_url }}" target="_self">
+      <span class="blog-item__thumb"><img src="{{ post.cover | default: post.image | default: '/images/blog-placeholder.svg' | relative_url }}" alt="{{ post.title | escape }}"></span>
+      <span class="blog-item__body">
+        <span class="blog-item__title">{{ post.title }}</span>
+        <span class="blog-item__meta"><i class="fas fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+      </span>
+    </a>
+{%- endfor %}
+  </div>
+  {%- if site.posts.size == 0 %}
+  <p class="blog-empty">No posts yet — stay tuned!</p>
+  {%- endif %}
+</div>
