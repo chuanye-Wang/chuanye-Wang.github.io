@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post__header">
+  <h1 class="post__title">{{ page.title }}</h1>
+  <p class="post__meta"><i class="fas fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%b %-d, %Y" }}{% if page.tags.size > 0 %} &middot; {% for tag in page.tags %}<span class="post__tag">{{ tag }}</span>{% endfor %}{% endif %}</p>
+</div>
+
+<div class="post__content">
+  {{ content }}
+</div>
+
+<div class="post__footer">
+  <a href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back to all posts</a>
+</div>
