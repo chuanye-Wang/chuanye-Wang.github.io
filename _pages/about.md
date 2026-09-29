@@ -75,10 +75,16 @@ I am exploring PhD opportunities for **Fall 2027**. Feel free to reach me at [wa
 </div>
 
 # 📖 Educations
-- *2024.09 – Present*, **Beihang University (BUAA)**, Beijing, China  
-  M.Eng. in Transportation Engineering (*Focus: Embodied AI & Autonomous Driving*)
-- *2019.09 – 2023.06*, **Beijing University of Technology (BJUT)**, Beijing, China  
-  B.Eng. in Electrical Engineering (*Track: Telecommunications*)
+<div class="exp-list">
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/beihang.png" alt="Beihang University logo"></div>
+    <div class="exp-body"><em>2024.09 – Present</em>, <strong>Beihang University (BUAA)</strong>, Beijing, China<br>M.Eng. in Transportation Engineering (<em>Focus: Embodied AI &amp; Autonomous Driving</em>)</div>
+  </div>
+  <div class="exp-item">
+    <div class="exp-logo"><img src="/images/beigongda.png" alt="Beijing University of Technology logo"></div>
+    <div class="exp-body"><em>2019.09 – 2023.06</em>, <strong>Beijing University of Technology (BJUT)</strong>, Beijing, China<br>B.Eng. in Electrical Engineering (<em>Track: Telecommunications</em>)</div>
+  </div>
+</div>
 
 # 🎖 Honors and Awards
 - *2022*, National 3rd Prize in RoboCup China
